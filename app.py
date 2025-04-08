@@ -7,7 +7,7 @@ ip_address = socket.gethostbyname(hostname)
 
 @app.route('/')
 def hello_cloud():
-  return 'Welcome to Khan Final Test API Server'
+  return 'Welcome to Khan Final Test API Server 2'
   
 @app.route('/host')
 def host_name():
